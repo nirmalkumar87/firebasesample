@@ -58,8 +58,7 @@ public class MainActivity extends AppCompatActivity {
         password = (TextView) findViewById(R.id.password);
         login = (Button) findViewById(R.id.login);
 
-        email.setText("nirmal@contus.in");
-        password.setText("nirmal123");
+
 
         database = FirebaseDatabase.getInstance();
         setValueListener();
